@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pweb | tri</title>
+    <style>
+      td {
+        padding: 10px;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      .tabel1 {
+        width: 800px;
+      }
+      .container {
+        padding-top: 50px;
+        margin: auto;
+        width: 800px;
+      }
+      .tabel1 .tr1 > td:nth-of-type(1) {
+        padding: 50px;
+      }
+      .tabel2 {
+        width: 100%;
+      }
+      .td {
+        padding: 15px;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          overflow-x: scroll;
+          margin: auto;
+          width: 95%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <table border="1" class="tabel1">
+        <tr class="tr1">
+          <td>
+            <table border="1" class="tabel2">
+              <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+              </tr>
+              <tr>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+              </tr>
+              <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+              </tr>
+            </table>
+          </td>
+          <td class="td">1</td>
+          <td class="td">2</td>
+        </tr>
+        <tr class="tr1">
+          <td>
+            <table border="1" class="tabel2">
+              <tr>
+                <td>A</td>
+                <td>B</td>
+              </tr>
+              <tr>
+                <td>C</td>
+                <td>D</td>
+              </tr>
+            </table>
+          </td>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td class="td2">5</td>
+          <td class="td2">6</td>
+          <td class="td2">7</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

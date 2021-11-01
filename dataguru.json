@@ -1,0 +1,64 @@
+{
+  "dataGuru": [
+    {
+      "id": "1",
+      "nama": "Erdy Herdiawan, S.kom, M.M",
+      "jabatan": "Kepala sekolah",
+      "mata_pel": ""
+    },
+    {
+      "id": "2",
+      "nama": "Hamdan, S.pd ",
+      "jabatan": "Guru Mata Pelajaran",
+      "mata_pel": "Bahasa inggris"
+    },
+    {
+      "id": "3",
+      "nama": "Hendisuhendi, S.S.t",
+      "jabatan": "",
+      "mata_pel": ""
+    },
+    {
+      "id": "4",
+      "nama": "",
+      "jabatan": "",
+      "mata_pel": ""
+    },
+    {
+      "id": "5",
+      "nama": "",
+      "jabatan": "",
+      "mata_pel": ""
+    },
+    {
+      "id": "6",
+      "nama": "",
+      "jabatan": "",
+      "mata_pel": ""
+    },
+    {
+      "id": "7",
+      "nama": "",
+      "jabatan": "",
+      "mata_pel": ""
+    },
+    {
+      "id": "8",
+      "nama": "",
+      "jabatan": "",
+      "mata_pel": ""
+    },
+    {
+      "id": "9",
+      "nama": "",
+      "jabatan": "",
+      "mata_pel": ""
+    },
+    {
+      "id": "10",
+      "nama": "",
+      "jabatan": "",
+      "mata_pel": ""
+    }
+  ]
+}

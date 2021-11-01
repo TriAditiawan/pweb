@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop form</title>
+    <style>
+      :root {
+        background-color: #eaeaea;
+      }
+      @font-face {
+        font-family: "Open sans";
+        src: url("./OpenSans-Regular.ttf");
+      }
+      body {
+        font-family: "Open sans", sans-serif;
+      }
+      h1 {
+        text-align: center;
+      }
+      form {
+        width: 60%;
+        margin: auto;
+      }
+      ul {
+        width: 750px;
+        list-style-type: none;
+        list-style-position: outside;
+        margin: 0px;
+        padding: 0px;
+      }
+      li {
+        padding: 10px;
+        position: relative;
+      }
+
+      button {
+        padding: 5px;
+      }
+      label {
+        width: 200px;
+        margin-top: 3px;
+        display: inline-block;
+        /* float: left; */
+        padding: 3px;
+        font-size: 1.125rem;
+        font-weight: bold;
+      }
+      input {
+        height: 20px;
+        width: 300px;
+        padding: 5px;
+        font-size: 14px;
+      }
+      textarea {
+        padding: 5px 8px;
+        width: 300px;
+      }
+      .form-control {
+        padding: 5px;
+        font-size: 14px;
+      }
+      .form-control > option {
+        padding: 5px;
+      }
+      button {
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #6c757d;
+        color: white;
+        font-size: 16px;
+        display: block;
+        margin-left: 220px;
+        margin-top: 25px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Masukan biodata anda</h1>
+    <form action="">
+      <ul>
+        <li>
+          <label for="Nama">Nama </label>
+          <input type="text" name="" id="Nama" placeholder="Masukan nama anda" />
+        </li>
+        <li>
+          <label for="jk">Jenis kelamin </label>
+          <input type="file" name="" id="jk" />
+        </li>
+        <li>
+          <label for="ttl">Tpt/Tgl/Lahir </label>
+          <input type="text" name="" id="ttl" placeholder="Masukan Tanggal lahir anda" />
+        </li>
+        <li>
+          <label for="status">Status</label>
+          <select id="status" class="form-control">
+            <option disabled="" selected="" value="">Pilih pada opsi</option>
+            <option value="1">Singgle</option>
+            <option value="2">Menikah</option>
+          </select>
+        </li>
+        <li>
+          <label for="Agama">Agama </label>
+          <input type="text" name="" id="Agama" placeholder="Masukan Agama anda" />
+        </li>
+        <li>
+          <label for="Hobi">Hobi </label>
+          <input type="text" name="" id="Hobi" placeholder="Masukan Hobi anda" />
+        </li>
+        <li>
+          <label for="alm">Alamat</label>
+          <textarea name="" id="alm" rows="3"></textarea>
+        </li>
+      </ul>
+      <button type="submit">Masukan biodata</button>
+    </form>
+  </body>
+</html>

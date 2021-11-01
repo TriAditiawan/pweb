@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <title>pweb | tri</title>
+    <style>
+      body {
+        font-family: "Open sans", sans-serif;
+      }
+      .container {
+        width: 400px;
+        margin: auto;
+        border: 1px solid #007bff;
+        padding: 25px;
+        border-radius: 15px;
+      }
+      h2 {
+        text-align: center;
+      }
+      label,
+      input {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        outline: none;
+        font-size: 18px;
+      }
+      button {
+        width: 100%;
+        padding: 10px 0;
+        margin-top: 25px;
+        font-size: 1.2em;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: white;
+        background-color: #007bff;
+        text-transform: uppercase;
+      }
+      @media (max-width: 572px) {
+        .container {
+          width: 80%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Hitung Luas Segitiga</h2>
+      <label for="ipt_alas">Masukan alas</label>
+      <input type="text" id="ipt_alas" />
+      <label for="tinggi">Masukan tinggi</label>
+      <input type="text" id="ipt_tinggi" />
+      <button onclick="hitung()">Hitung</button>
+      <h4>Luas segitiga</h4>
+      <input type="text" id="opt_luas" disabled />
+    </div>
+    <script>
+      var luas;
+      var alas;
+      var tinggi;
+      var sisiMiring;
+      function hitung() {
+        alas = parseFloat(document.getElementById("ipt_alas").value);
+        tinggi = parseFloat(document.getElementById("ipt_tinggi").value);
+        luas = (alas * tinggi) / 2;
+        sisiMiring = Math.sqrt(Math.pow(alas, 2) + Math.pow(tinggi, 2));
+        document.getElementById("opt_luas").value = luas;
+      }
+    </script>
+  </body>
+</html>

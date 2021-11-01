@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tri | pweb</title>
+    <style>
+      .border {
+        padding: 5px;
+        border: 1px solid #dee2e6;
+      }
+      .container {
+        width: 500px;
+        margin: auto;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .grid-colom {
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr;
+      }
+      .grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      @media (max-width: 576px) {
+        .pembungkus {
+          width: 95%;
+          margin: auto;
+          overflow-x: scroll;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pembungkus">
+      <div class="container">
+        <div class="grid-colom">
+          <div class="border" style="padding: 25px">
+            <div class="grid">
+              <div class="border">A</div>
+              <div class="border">B</div>
+              <div class="border">C</div>
+            </div>
+            <div class="grid">
+              <div class="border">D</div>
+              <div class="border">E</div>
+              <div class="border">F</div>
+            </div>
+            <div class="grid">
+              <div class="border">G</div>
+              <div class="border">H</div>
+              <div class="border">I</div>
+            </div>
+          </div>
+          <div class="border">2</div>
+          <div class="border">3</div>
+        </div>
+        <div class="grid-colom">
+          <div class="border" style="padding: 25px">
+            <div class="grid2">
+              <div class="border">A</div>
+              <div class="border">B</div>
+            </div>
+            <div class="grid2">
+              <div class="border">C</div>
+              <div class="border">D</div>
+            </div>
+          </div>
+          <div class="border">3</div>
+          <div class="border">4</div>
+        </div>
+        <div class="grid-colom">
+          <div class="border">5</div>
+          <div class="border">6</div>
+          <div class="border">7</div>
+        </div>
+        <div class="grid-colom">
+          <div class="border">8</div>
+          <div class="border">9</div>
+          <div class="border">10</div>
+        </div>
+        <div class="grid-colom">
+          <div class="border">11</div>
+          <div class="border">12</div>
+          <div class="border">13</div>
+        </div>
+        <div class="grid-colom">
+          <div class="border">14</div>
+          <div class="border">15</div>
+          <div class="border">16</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tri | pweb</title>
+    <style>
+      :root {
+        background-color: #eaeaea;
+      }
+      @font-face {
+        font-family: "Open sans";
+        src: url("./OpenSans-Regular.ttf");
+      }
+      body {
+        font-family: "Open sans", sans-serif;
+      }
+
+      h4,
+      input {
+        display: block;
+        margin: 5px 0;
+        padding: 10px 5px;
+        width: 400px;
+        border-radius: 5px;
+      }
+      div {
+        width: 400px;
+        margin: auto;
+      }
+      h1 {
+        text-align: center;
+      }
+      .button {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+      }
+      button {
+        font-size: 16px;
+        padding: 5px 0;
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Input biodata</h1>
+
+      <form>
+        <h4 for="Id.Customer">Id.Customer</h4>
+        <input type="text" id="Id.Customer" />
+        <h4 for="NAMA">NAMA</h4>
+        <input type="text" id="NAMA" />
+        <h4 for="Telp">Telp</h4>
+        <input type="text" id="Telp" />
+        <h4 for="alamat">Alamat</h4>
+        <input type="text" id="alamat" />
+
+        <div class="button">
+          <button type="submit">Kirim</button>
+          <button type="reset">Batal</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

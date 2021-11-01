@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <title>tri | Pweb 9/13/21</title>
+    <style>
+      :root {
+        background-color: #eaeaea;
+      }
+
+      body {
+        font-family: "Open sans", sans-serif;
+        height: 800px;
+      }
+
+      h4,
+      input {
+        display: block;
+        margin: 5px 0;
+        padding: 10px 5px;
+        width: 100%;
+      }
+      input {
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid gray;
+      }
+      .container {
+        width: 400px;
+        margin: auto;
+      }
+      h1 {
+        text-align: center;
+      }
+      .button {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+      }
+      button {
+        font-size: 16px;
+        padding: 5px 0;
+        margin-top: 15px;
+      }
+      .flex {
+        display: grid;
+        grid-template-columns: 0.1fr 2fr;
+        width: 100%;
+      }
+      label {
+        margin-left: 5px;
+        padding: 5px 0;
+      }
+      .radio {
+        width: 10px;
+        margin-left: 15px;
+        margin-top: 10px;
+      }
+      select {
+        margin-top: 15px;
+        padding: 10px 10px;
+        width: 100%;
+        font-size: 16px;
+      }
+      option {
+        font-size: 16px;
+      }
+      @media (max-width: 572px) {
+        .container {
+          width: 90% !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Input Customer</h1>
+
+      <form>
+        <h4 for="NIK">NIK</h4>
+        <input type="text" id="NIK" />
+        <h4 for="NAMA">NAMA</h4>
+        <input type="text" id="NAMA" />
+        <h4 for="tl">Tanggal lahir</h4>
+        <input type="date" id="tl" />
+        <h4>jenis kelamin</h4>
+        <div class="flex">
+          <input type="radio" class="radio" name="jk" />
+          <label for="">Laki laki</label>
+        </div>
+        <div class="flex">
+          <input type="radio" class="radio" name="jk" />
+          <label for="">Perempuan</label>
+        </div>
+        <!-- aganma -->
+        <label for="agama">Agama</label>
+
+        <select name="agama" id="agama">
+          <option value="1">Kristen</option>
+          <option value="2">Istam</option>
+          <option value="3">katolik</option>
+          <option value="4">Hindu</option>
+          <option value="5">Budha</option>
+        </select>
+        <h4 for="Status">Status</h4>
+        <input type="text" id="Status" />
+        <div class="button">
+          <button type="submit">Simpan</button>
+          <button type="reset">Batal</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
