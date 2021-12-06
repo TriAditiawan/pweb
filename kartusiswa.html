@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <title>Tri | pweb 06/12/2021</title>
+  <style>
+    body {
+      justify-content: center;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    h2 {
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    h2,
+    p {
+      color: white;
+    }
+
+    .container-card {
+      width: 300px;
+      height: 150px;
+      margin: auto;
+      background: linear-gradient(135deg, #007bff, #70b5ff);
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .background .lingkaran {
+      width: 150px;
+      height: 150px;
+      background-color: #0D1316;
+      border-radius: 50%;
+      margin-top: -50px;
+      margin-left: -50px;
+      position: absolute;
+
+    }
+
+    .background .lingkaran img {
+      position: absolute;
+      right: 75px;
+      top: 55px;
+      z-index: 555;
+    }
+
+    .background .lingkaran h2 {
+      position: absolute;
+      right: -15px;
+      top: 50px;
+      z-index: 555;
+      font-size: 8px;
+      font-weight: 700;
+
+    }
+
+    .background .lingkaran p {
+      position: absolute;
+      right: 0px;
+      top: 93px;
+      z-index: 555;
+      font-size: 6px;
+      margin-top: -25px;
+    }
+
+    .background .lingkaran2 {
+      width: 100px;
+      height: 100px;
+      background-color: #E3AE39;
+      border-radius: 50%;
+      margin-top: -20px;
+      margin-left: -20px;
+      position: absolute;
+    }
+
+    .background .lingkaran3 {
+      right: -15px;
+      bottom: -40px;
+      width: 100px;
+      height: 100px;
+      background-color: #286B3E;
+      border-radius: 50%;
+
+      position: absolute;
+    }
+
+    .background .lingkaran3 p {
+      position: absolute;
+      left: 5px;
+      top: 20px;
+      text-align: center;
+      z-index: 555;
+      font-size: 8px;
+
+    }
+
+    .background .lingkaran3 p span {
+      font-weight: 700;
+
+    }
+
+    .content {
+      width: 220px;
+      top: 40px;
+      left: 30px;
+      position: absolute;
+      z-index: 9999;
+    }
+
+    .content p {
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 12px;
+    }
+
+    .content p .span {
+      font-weight: 700;
+      padding-left: 39px;
+    }
+
+    .content p .span2 {
+      padding-left: 36px;
+
+
+    }
+
+    .content p .span3 {
+      padding-left: 68px;
+
+    }
+
+    .content p .span4 {
+      padding-left: 12px;
+
+    }
+
+    .content h2 {
+      color: #0D1316;
+      position: absolute;
+      font-size: 8px;
+      bottom: -20px;
+      left: -25px;
+    }
+
+    .content h2 .span1 {
+      font-weight: 900;
+      color: #286B3E;
+
+    }
+
+    .content h2 .span2 {
+      font-weight: 900;
+      color: white;
+    }
+
+    .content h2 .span3 {
+      font-weight: 900;
+      color: #E3AE39;
+    }
+
+    .content img {
+      position: absolute;
+      left: -10px;
+      bottom: -30px;
+    }
+
+    .bingkai {
+      width: 50px;
+      height: 60px;
+      border-radius: 2px;
+      border: 1px solid #0D1316;
+      background-image: url(https://smkinformatikacbi.sch.id/images/siswa/1023.jpg);
+      background-size: cover;
+      background-position: center;
+
+      position: absolute;
+      right: 25px;
+      top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Kartu siswa</h2>
+  <div class="container-card">
+    <div class="background">
+      <div class="lingkaran">
+        <img src="./52.png" width="20px" height="20px" alt="">
+        <h2>SMK INFORMATIKA CBI</h2>
+        <p>Rekayasa Perangkat Lunak</p>
+      </div>
+      <div class="lingkaran2">
+      </div>
+      <div class="lingkaran3">
+        <p>Massa Berlaku: <br> <span>30 Juni 2022</span></p>
+      </div>
+      <div class="bingkai">
+
+      </div>
+    </div>
+    <div class="content">
+      <p>Nama <span class="span">: TRI ADITIAWAN</span>
+        <br>
+        Jenis kelamin <span class="span4">: Laki-laki</span>
+        <br>
+        Tempat Tgl, Lahir : Sukabumi, 30-06-2003
+        <br>
+        Alamat <span class="span2">: Kp. Nanggerang Rt 04/02 </span> <span class="span3">Ds. Nanggerang Kec.
+          Cicurug</span>
+      </p>
+      <h2>
+        <span class="span1">/</span>
+        <span class="span2">/</span>
+        <span class="span3">/</span>
+        NIS : 1920.10.321
+      </h2>
+      <img src="./Untitled-1.png" width="65" height="13.5" alt="">
+    </div>
+
+  </div>
+</body>
+
+</html>
